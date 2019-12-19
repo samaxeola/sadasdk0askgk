@@ -11,8 +11,8 @@ setInterval(() => {
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-const prefix = "_";
-const ownerID = "359802930724995073";
+const prefix = "/";
+const ownerID = "254507968710574080";
 const active = new Map();
 
 client.on('message', message => {
@@ -44,4 +44,4 @@ client.on('message', message => {
 
 client.on('ready', () => console.log('Im Ready Man :)'));
 
-client.login("NjA1NTA1MDQzNDY2Mjg5MTcy.XfJqWQ.0thDVhwxeOFWVN8OIfUCqY-53HQ");
+client.login("NjU3MjI2OTUwODQxOTkxMjA5.XfuIiQ.FAZlSrZ39N4cOos7VBaUyEwe05A");
